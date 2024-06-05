@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav aria-label="nav bar">
+            <figure role="figure">
+                <a href="/">
+                    <img src="image.png" alt="Logiño" title="logo" role="img" aria-label="Image of logo and link to home">
+                </a>
+            </figure>
+            <ul>
+                <li><a href="#" role="link">Overview</a></li>
+                <li><a href="#" role="link">Contact</a></li>
+                <li><a href="#" role="link">Favorites</a></li>
+                <li><button type="button" role="button">+ New</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form aria-labell="form to add a new contact">
+                <label for="firstname">
+                    <input type="text" placeholder="First Name" id="firstname">
+                </label>
+                <label for="lastname">
+                    <input type="text" placeholder="Last Name" id="lastname">
+                </label>
+                <label for="emailId">
+                    <input type="email" placeholder="Email" id="emailId">
+                </label>
+                <label for="checkbox option">
+                    Enable like Favorites
+                    <input type="checkbox" id="checkbox option">
+                </label>
+                <button type="submit">Save</button>
+            </form>
+        </section>        
+    </main>
+    <footer></footer>
+</body>
+
+</html>
